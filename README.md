@@ -1,5 +1,5 @@
 ## Texas Advanced Computing Center
-# Django CMS Plugin: "Plugin Name"
+# Django CMS Plugin: "Offset"
 
 This plugin offsets the content of nested plugin instances from surrounding content.
 

@@ -1,4 +1,11 @@
-/* NOTE: These are sample styles. Your app should use styles suitable for it. */
+/*
+Offset Content
+
+Content that should be offset from the flow of text within which it is placed.
+
+(The `o-` prefix of this class is a [namespace](https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/) for an object in [ITCSS](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/).)
+*/
+/* NOTE: These is sample CSS. Your app should use CSS suitable to your app. */
 
 /* To avoid repeat values */
 [class*=o-offset-content--] {

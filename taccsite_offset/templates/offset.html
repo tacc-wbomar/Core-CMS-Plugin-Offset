@@ -1,0 +1,17 @@
+{% load static %}
+
+{% block before_content %}
+<link rel="stylesheet" href="{% static 'taccsite_offset/css/o-offset-content.css' %}" />
+{% endblock before_content %}
+
+{% block content %}
+<aside {# class="o-offset-content--..." #}{{ instance.attributes_str }}>
+  {% for plugin_instance in instance.child_plugin_instances %}
+    {% render_plugin plugin_instance %}
+  {% endfor %}
+</aside>
+{% endblock content %}
+
+{% block after_content %}
+{# <script … src="{% static '…/….js' %}" /> #}
+{% endblock after_content %}

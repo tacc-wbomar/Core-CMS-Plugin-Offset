@@ -1,0 +1,39 @@
+/* NOTE: These are sample styles. Your app should use styles suitable for it. */
+
+/* To avoid repeat values */
+[class*=o-offset-content--] {
+    --offset-distance: 8.5vw;
+    --buffer: 30px;
+}
+
+/* To offset content */
+/* IDEA: Only support this for certain wide layouts */
+/* @media only screen and (min-width: 992px) and (max-width: 2399px) { */
+.o-offset-content--right {
+    margin-right: calc(-1 * var(--offset-distance))
+}
+.o-offset-content--left {
+    margin-left: calc(-1 * var(--offset-distance))
+}
+/* } */
+
+/* IDEA: To only float, not offset, content on narrow windows */
+/*
+@media only screen and (min-width: 992px) {
+    .o-offset-content--right {
+        float: right;
+        margin-left: var(--buffer);
+    }
+    .o-offset-content--right + .o-offset-content--right {
+        clear: right;
+    }
+
+    .o-offset-content--left {
+        float: left;
+        margin-right: var(--buffer);
+    }
+    .o-offset-content--left + .o-offset-content--left {
+        clear: left;
+    }
+}
+*/

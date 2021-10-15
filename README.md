@@ -3,8 +3,9 @@
 
 This plugin offsets the content of nested plugin instances from surrounding content.
 
-- __`__plugin_name__`__: `taccsite_offset`
-- __`__PluginName__`__: `TaccsiteOffset`
+- __`__dist-name__`__: `taccsite_offset`
+- __`__package_name__`__: `taccsite_offset`
+- __`__ClassName__`__: `TaccsiteOffset`
 - __"Plugin Name"__: "Offset Content"
 
 ## Quick Start
